@@ -2,4 +2,4 @@ base:
   '*':
     - common
   'salt':
-    - salt.api
+    - salt.master
