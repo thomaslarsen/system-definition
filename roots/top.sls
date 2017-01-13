@@ -1,6 +1,7 @@
 base:
   '*':
     - common
-  'salt':
+  'role:salt::master':
+    - match: grain
     - salt.master
     - salt.minion
