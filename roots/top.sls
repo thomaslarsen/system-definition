@@ -2,6 +2,6 @@ base:
   '*':
     - common
   'role:salt::master':
-    - match: grain
+    - match: grain_pcre
     - salt.master
     - salt.minion
