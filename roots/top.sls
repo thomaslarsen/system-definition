@@ -9,4 +9,4 @@ base:
 
   'role:vault':
     - match: grain_pcre
-    - vault.install
+    - vault
