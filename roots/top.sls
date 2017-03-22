@@ -10,4 +10,3 @@ base:
   'role:vault':
     - match: grain_pcre
     - vault
-    - vault.initialize
